@@ -1,20 +1,14 @@
+import React from 'react';
+
+import Product from './containers/Product/Product';
+import Navigations from './components/Navigations/Navigations';
 import './App.css';
+
 const App =()=>{
   return(
     <div className='App'>
-      <div>
-        <ul>
-          <li>Home</li>
-          <li>Product</li>
-          <li>About Us</li>
-          <li>Log In</li>
-        </ul>
-        <div>
-          <p>
-            Here is the E-commerce Website
-          </p>
-        </div>
-      </div>
+      <Navigations/>
+      <Product/>
     </div>
   );
 }
