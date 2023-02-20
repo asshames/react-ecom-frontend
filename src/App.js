@@ -2,11 +2,11 @@ import React from 'react';
 
 import Products from './containers/Products/Products';
 import Navigations from './component/Navigations/Navigations';
-import './App.css';
+import classes from './App.css';
 
 const App =()=>{
   return(
-    <div className='App'>
+    <div className="classes.App">
       <Navigations/>
       <Products/>
     </div>
