@@ -4,3 +4,38 @@
     box-sizing: border-box;
     width: 100%;
 }
+
+.NavigationItem a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active {
+    color: brown;
+}
+
+@media (min-width : 500px) {
+    .NavigationItem {
+        margin: 5px 0px;
+        display: flex;
+        width: auto;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .NavigationItem a {
+        color: black;
+        height: 100%;
+        padding: 10px;
+    }
+    
+    .NavigationItem a:hover,
+    .NavigationItem a:active {
+        color: brown;
+    }
+    
+}
